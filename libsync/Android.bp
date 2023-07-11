@@ -58,7 +58,6 @@ cc_test {
     shared_libs: ["libsync"],
     srcs: ["tests/sync_test.cpp"],
     cflags: [
-        "-g",
         "-Wall",
         "-Werror",
         "-Wno-missing-field-initializers",

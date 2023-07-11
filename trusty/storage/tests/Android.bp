@@ -23,7 +23,6 @@ cc_test {
     vendor: true,
 
     cflags: [
-        "-g",
         "-Wall",
         "-Werror",
         "-Wno-missing-field-initializers",
