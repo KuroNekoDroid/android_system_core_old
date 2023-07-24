@@ -864,6 +864,7 @@ on post-fs-data
     mkdir /data/local/tests/vendor 0701 shell shell
 
     # create dalvik-cache, so as to enforce our permissions
+    rm /data/dalvik-cache
     mkdir /data/dalvik-cache 0771 root root encryption=Require
     # create the A/B OTA directory, so as to enforce our permissions
     mkdir /data/ota 0771 root root encryption=Require
